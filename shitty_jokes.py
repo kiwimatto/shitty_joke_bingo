@@ -30,6 +30,9 @@ jokes = [ ["What's brown and runny?", "Usain Bolt"], \
           ["What do you call a pair of crows?", "Attempted murder"], \
           ["What do you get when you cross an octopus with a cow?", "A reprimand from the Scientific Integrity and Professional Ethics Committee" ] ]
 
+NUMBER_OF_BINGO_SHEETS = 10
+
+
 
 head = """
 <html>
@@ -78,8 +81,6 @@ foot = """
 </body>
 </html>
 """
-
-NUMBER_OF_BINGO_SHEETS = 10
 
 
 def make_table():
