@@ -3,7 +3,7 @@
 Simple Python script generating shitty joke bingo sheets. Have a look at shitty_jokes.py, it's fairly self-explanatory.
 
 Requirements:
-* Python  (obv)
+* Python  (http://python.org/)
 * wkhtmltopdf  (http://wkhtmltopdf.org/)
 * pdftk (https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
 
