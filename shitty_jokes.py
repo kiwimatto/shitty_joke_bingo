@@ -1,6 +1,5 @@
 import os, sys, time
 import numpy as np
-#import pdfkit
 
 jokes = [ ["What's brown and runny?", "Usain Bolt"], \
           ["What do hipster jeans and a cheap hotel have in common?", "No ballroom"], \
