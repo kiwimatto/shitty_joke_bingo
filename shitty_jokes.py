@@ -1,11 +1,14 @@
 import os, sys, time
 import numpy as np
 
-jokes = [ ["What's brown and runny?", "Usain Bolt"], \
+jokes = [ ["What did 0 say to 8?", "Nice belt."], \
+          ["What do you call a pregnant woman?", "A body builder."], \
+          ["I was fired from the keyboard factory today...","I wasn't putting in enough shifts."], \
+          ["I just got caught breaking two of my dad's favourite Queen records.", "Now I want to break three"], \
+          ["What do you call a pig with three eyes?","A piiig"], \
           ["What do hipster jeans and a cheap hotel have in common?", "No ballroom"], \
           ["Did you hear about the duck with a drug problem?", "He was a quackhead"], \
           ["And the Lord said to John, \"Come forth and you shall receive eternal life\"...", "But John came fifth and won a toaster"], \
-          ["What's brown and rhymes with snoop?", "Dr. Dre"], \
           ["Two TV aerials got married...", "The wedding was rubbish but the reception was excellent"], \
           ["I went to buy some camouflage trousers the other day...", "but I couldn't find any"], \
           ["A man walks into a bar with a slab of asphalt under his arm. The bartender says:", "\"I'll serve you, but not your friend, he looks like a bit of a cycle path\""], \
@@ -73,7 +76,7 @@ p {
 }
 </style>
 <body>
-<center><b> Shitty joke bingo </b></center><br><br>
+<center><b> Dad joke bingo </b></center><br><br>
 """
 
 foot = """
@@ -119,7 +122,7 @@ for i in range(NUMBER_OF_BINGO_SHEETS):
 make_questions_sheet()
 
 # combine all into a single pdf
-os.system('pdftk' + pdftkstring + ' cat output shitty_joke_bingo.pdf')
+os.system('pdftk' + pdftkstring + ' cat output dad_joke_bingo.pdf')
 
 # clean up
 os.remove('temp.html')
